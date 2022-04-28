@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap');
+#topcover{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px !important;
+    margin: 0 !important;
+    overflow-y: hidden;
+}
+
+.topvideo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box !important;
+    margin: 0px !important;
+    z-index: -1;
+}
+
+
+
+.buttons{
+    position: absolute;
+    top: 7;
+    right: 0;
+    margin-right: 20px !important;
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+}
+
+.login .button{
+    margin-right: 20px !important;
+}
+
+
+.logo-container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px !important;
+}
+
+.logo{
+    font-family: 'Noto Serif', serif !important;
+    font-weight: 1000;
+    font-size: 100px !important;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #161414 !important;
+    padding-bottom: 200px !important;
+}
+
+.typewriterText{
+    margin-left: 40px;
+    color: rgb(35, 31, 31);
+    font-size: 50px;
+    font-weight: 400;
+    animation: typing 1s steps(30, end), blink-caret .75s step-end infinite;
+}
+
+@media screen and (max-width: 768px){
+    .typewriterText{
+        visibility: hidden;
+    }
+
+    .logo-container{
+        margin-top: 20px !important;
+    }
+
+    .logo{
+        font-size: 50px !important;
+        font-weight: 400;
+    }
+
+    #topcover{
+        height: 350px !important;
+    }
+}
+    
+
+
+
+/* search and location box */
+
+#dropdown{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px !important;
+}
+
+.location-dropdown{
+    width: 20%;
+    height: 60px !important;
+    border-radius: 5px !important;
+    border: 3px solid #f04d5e;
+    border-radius: 10px !important;
+}
+
+.restaurant-dropdown{
+    width: 40%;
+    height: 60px !important;
+    margin-left: 3px !important;
+    border: 3px solid #FF7E8B;
+    border-radius: 10px !important;
+}
+
+.city-option{
+    height: 60px !important;
+}
+
+.rest-option{
+    height: 60px !important;
+}
