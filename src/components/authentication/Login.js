@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./auth.css";
-const url = "https://medimax-auth.herokuapp.com/api/auth/login";
+const url = "https://medimaxauth.onrender.com/api/auth/login";
 class Login extends Component {
   constructor(props) {
     super(props);
