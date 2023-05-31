@@ -5,7 +5,7 @@ import "./listdetails.css";
 import Header from "../Header";
 import "../header.css";
 import Footer from "../Footer";
-const url = "https://medimax-data.herokuapp.com/medicine/";
+const url = "https://medicineapi.onrender.com/medicine/";
 class Listing extends Component {
   constructor(props) {
     super(props);
