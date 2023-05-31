@@ -6,8 +6,8 @@ import Footer from "../Footer";
 import axios from "axios";
 import { v4 as uuid } from 'uuid';
 
-const url = "https://medimax-data.herokuapp.com/details/";
-const PostUrl = "https://medimax-data.herokuapp.com/placeOrder";
+const url = "https://medicineapi.onrender.com/details/";
+const PostUrl = "https://medicineapi.onrender.com/placeOrder";
 class Placeorder extends Component {
   constructor(props) {
     super(props);
