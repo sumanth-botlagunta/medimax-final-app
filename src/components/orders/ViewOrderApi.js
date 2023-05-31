@@ -4,8 +4,8 @@ import Header from "../Header";
 import axios from "axios";
 import Footer from "../Footer";
 import "./placeorder.css";
-const url = "https://medimax-data.herokuapp.com/viewOrder/";
-const url1 = "https://medimax-data.herokuapp.com/updateOrder";
+const url = "https://medicineapi.onrender.com/viewOrder/";
+const url1 = "https://medicineapi.onrender.com/updateOrder";
 class ViewOrderApi extends Component {
   constructor(props) {
     super(props);
