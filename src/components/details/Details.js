@@ -7,7 +7,7 @@ import Header from "../Header";
 import "../header.css";
 import Footer from "../Footer";
 
-const detailsurl = "https://medimax-data.herokuapp.com/details/";
+const detailsurl = "https://medicineapi.onrender.com/details/";
 
 class Details extends Component {
   constructor(props) {
