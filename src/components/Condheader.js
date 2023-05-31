@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link, withRouter } from "react-router-dom";
 import "./header.css";
-const url = "https://medimax-auth.herokuapp.com/api/auth/userInfo";
+const url = "https://medimaxauth.onrender.com/api/auth/userInfo";
 class Condheader extends Component {
   constructor() {
     super();
